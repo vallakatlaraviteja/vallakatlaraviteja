@@ -430,3 +430,47 @@ These are the only candidates. Anything beyond this list is feature theater.
 **This document is v1. It will be revised at the end of each week's review.**
 
 *Last revised: 22 May 2026.*
+
+
+
+---
+
+## 15. Dual-track plan — strategy + `hireloop` as portfolio
+
+*Added 22 May 2026, in response to owner's decision to use the platform itself as the GitHub portfolio piece.*
+
+### Why this works
+
+The original plan called for three small repos (`doc-skew-detector`, `multi-db-migrate`, `pyservice-template`) to repair the GitHub gap. A **single, deeply-built personal job-acquisition cockpit** outguns that — *if* scope stays disciplined. It gives a coherent recruiter narrative:
+
+> *"I built `hireloop` to escape an exploitative trainee role. It is the cockpit I used for this job hunt. Pipeline tracker + AI resume tailoring + daily cadence enforcement. FastAPI, Postgres, pgvector, Next.js. ~5,000 lines. Deployed on Fly.io. Want to see it?"*
+
+That is a hire-worthy story for an SDE-1 / backend role at any Tier-B Indian product company.
+
+### Scope discipline (non-negotiable)
+
+V0 ships **3 features only**: Application CRM, AI Resume Tailoring, Daily Cadence. The 30+ features the original prompt asked for are explicitly killed in the repo's [README](./hireloop/README.md) and [ADR 0003](./hireloop/docs/adr/0003-no-scraping-no-autoapply.md). If owner asks to add features mid-build, the answer is no until V0 ships and is in daily use.
+
+### Time budget
+
+This DOES eat into the apply/practice budget. Hard cap:
+
+- **Mon–Fri:** ≤ 1.5 hrs/day on `hireloop` (after the existing 3.5 hr cadence floor in §6 is met)
+- **Sat:** 4 hrs `hireloop` (replaces 1 of the 2 GitHub project-sprint slots)
+- **Sun:** 2 hrs `hireloop` (in addition to existing strategy/review block)
+
+If `hireloop` is not on track at end of Week 2 (foundation + applications CRUD working, deployed), pause it and revert to the 3-small-repos plan from §7. **Stop-loss matters.**
+
+### What lives where
+
+- `hireloop/` — the platform repo (currently a subdirectory; extract to `vallakatlaraviteja/hireloop` before recruiter showcase)
+- `hireloop/STRATEGY.md`-equivalent → not duplicated; the owner's hiring strategy stays here in the root `STRATEGY.md`
+- `hireloop/docs/architecture.md` — system design
+- `hireloop/docs/adr/` — irreversible decisions captured (stack, single-owner, no-scraping policy)
+
+### Dual outcome
+
+When this is done, the owner has:
+
+1. **A working tool that tracks the actual job hunt and shipped tailored resumes against real JDs** — meaning the GitHub repo has *real* commits with real demo data (companies he applied to, tailoring runs that produced offers/screens, etc.). This is irreproducible by any clone.
+2. **An offer ≥ ₹4.5 LPA fixed by 15 Jul 2026.** Same primary metric as before. Unchanged.
