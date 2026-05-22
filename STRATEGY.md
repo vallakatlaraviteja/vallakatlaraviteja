@@ -474,3 +474,57 @@ When this is done, the owner has:
 
 1. **A working tool that tracks the actual job hunt and shipped tailored resumes against real JDs** — meaning the GitHub repo has *real* commits with real demo data (companies he applied to, tailoring runs that produced offers/screens, etc.). This is irreproducible by any clone.
 2. **An offer ≥ ₹4.5 LPA fixed by 15 Jul 2026.** Same primary metric as before. Unchanged.
+
+
+
+---
+
+## 16. Updates — 22 May 2026 (after owner answered the outstanding questions)
+
+### 16.1 Algonox — closed-door confirmed
+
+Owner asked the company about FT conversion. They said: **"they don't have projects, that's why they are not considering me."**
+
+**Interpretation (sharp):** Algonox has no incoming project pipeline that justifies a new full-time salary. They will retain owner at ₹10k/month "trainee temporary" rate to keep maintaining what's already running, but cannot convert him to full-time at any reasonable comp. This is not malice; it is a company that genuinely cannot afford to convert him.
+
+**Consequence:**
+
+- **The §11 counter-offer-as-leverage plan is dead.** There is no FT offer to extract from Algonox at any level.
+- **The Week-2 FT-conversion email script in §11 is no longer needed.** Skip it; the answer is already known.
+- Owner leaves the moment an outside offer is signed, with zero guilt. The company already told him the door is closed.
+- Until an offer is signed, owner stays employed (income > 0 still > ₹10k). Do the work. Mine it for resume metrics every Friday. Do not pre-quit.
+
+### 16.2 Role-targeting lock
+
+Owner reported applying for: *Software Engineer · Backend Engineer · Data Analyst · DevOps Engineer · Software Developer.*
+
+**Diagnosis:** Three of those five are synonyms (SE / SDev / BE). Two (Data Analyst, DevOps Engineer) are entirely different roles requiring different stacks. A candidate spread across five identities reads as unfocused on a recruiter screen — which contributes directly to the screen-to-tech-screen leak diagnosed in §2.
+
+**Locked target list (from this point forward, NO exceptions):**
+
+- ✅ Software Engineer / SDE-1 / Associate Software Engineer
+- ✅ Backend Engineer / Backend Developer
+- ✅ Software Developer
+- ✅ Python Developer
+- ❌ **Data Analyst** — KILL. Wrong stack (SQL + BI + stats). Wastes screens.
+- ❌ **DevOps Engineer** — KILL unless owner can demonstrate Terraform + Kubernetes + AWS-at-depth + monitoring-stack experience (he cannot). Without those, fails tech screens. Reapply at V2 in 12 months after building those skills if interested.
+
+**Filter rule for every JD:** if the role description doesn't read primarily as backend Python work, do not apply. Measure in days that pass without applying to a Data Analyst posting; that's progress.
+
+### 16.3 Comp answer — the screen killer must be fixed today
+
+Owner declined to disclose what comp number he tells recruiters ("my personal number").
+
+**Diagnosis:** Whichever of (a) discloses ₹10k current, (b) has no coherent ask, or (c) gives some other underconfident number, the result is the same — recruiter qualifies him out at the screen, which directly causes the 20% screen-to-tech leak diagnosed in §2.
+
+**Mandatory script (memorize verbatim, deliver every recruiter screen, no exceptions):**
+
+> *Recruiter: "What's your current CTC?"*
+> *You: "I'd prefer to focus on the role and expectations. My current role is a structured trainee program with non-standard pay; it's not a benchmark for my next role."*
+
+> *Recruiter: "What are you looking for?"*
+> *You: "Market rate for SDE-1 backend roles in Hyderabad — broadly ₹6–8 LPA fixed, open for the right opportunity."*
+
+**If pressed a third time on current CTC:** *"It's a trainee stipend, not a salary; I'd rather discuss what your team pays a junior backend engineer."*
+
+**Floor still ₹4.5 LPA fixed.** Ask still ₹6–8. Never volunteer ₹10k. Never accept "tell me your number first" — answer with the script above and pivot.
