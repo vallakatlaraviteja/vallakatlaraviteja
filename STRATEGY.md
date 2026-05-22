@@ -513,18 +513,37 @@ Owner reported applying for: *Software Engineer · Backend Engineer · Data Anal
 
 ### 16.3 Comp answer — the screen killer must be fixed today
 
-Owner declined to disclose what comp number he tells recruiters ("my personal number").
+Owner has been quoting **₹4–6 LPA** to recruiters.
 
-**Diagnosis:** Whichever of (a) discloses ₹10k current, (b) has no coherent ask, or (c) gives some other underconfident number, the result is the same — recruiter qualifies him out at the screen, which directly causes the 20% screen-to-tech leak diagnosed in §2.
+**Diagnosis:** This is not catastrophic (₹10k current is not being disclosed), but it is **systematic underpricing** that directly causes the recruiter-screen → tech-screen leak (§2). Specifically:
 
-**Mandatory script (memorize verbatim, deliver every recruiter screen, no exceptions):**
+- The bottom of any range you state is the number recruiters anchor on. "₹4–6" functionally reads as "₹4."
+- ₹4 is **below your own escape-velocity floor** of ₹4.5 LPA. You have been telling recruiters you would accept less than the minimum that solves your financial problem.
+- Tier-B product companies' SDE-1 bands start at ~₹6 LPA. When you open at ₹4, they conclude either "underqualified" or "doesn't know the market" and end the screen.
+- Tier-C service companies happily lock in at ₹4, which lands you below floor.
+
+**The three-number system (memorize; do not conflate them):**
+
+| Concept | Value | Visibility |
+|---|---|---|
+| **ASK** (public range you state) | **₹6–8 LPA fixed** | Stated to every recruiter, every time |
+| **FLOOR** (lowest offer you'll sign) | **₹4.5 LPA fixed** | Private. Never disclosed. |
+| **WALK** (offer level to decline) | < ₹4.5 LPA fixed | Private. Decline politely; keep searching. |
+
+**Why this works:** Asking ₹6–8 maps you to the Tier-B SDE-1 band. Recruiters negotiate you down to ₹5–6. You sign at ₹5–6, above your floor. You land where you actually need to be — *but only because the public ASK started at ₹6, not ₹4.*
+
+**Mandatory scripts (verbatim, every recruiter screen, no exceptions):**
 
 > *Recruiter: "What's your current CTC?"*
 > *You: "I'd prefer to focus on the role and expectations. My current role is a structured trainee program with non-standard pay; it's not a benchmark for my next role."*
 
 > *Recruiter: "What are you looking for?"*
-> *You: "Market rate for SDE-1 backend roles in Hyderabad — broadly ₹6–8 LPA fixed, open for the right opportunity."*
+> *You: "₹6–8 LPA fixed, open for the right opportunity."*
 
-**If pressed a third time on current CTC:** *"It's a trainee stipend, not a salary; I'd rather discuss what your team pays a junior backend engineer."*
+> *Recruiter: "Our band is ₹4–5 LPA."*
+> *You: "That's below where I'd be open to moving for an SDE-1 backend role. I'd need to see the full package — fixed, variable, joining bonus — to evaluate."*
 
-**Floor still ₹4.5 LPA fixed.** Ask still ₹6–8. Never volunteer ₹10k. Never accept "tell me your number first" — answer with the script above and pivot.
+> *Recruiter (third time pressing on current CTC): "I really need a number."*
+> *You: "It's a trainee stipend, not a salary; I'd rather discuss what your team pays a junior backend engineer."*
+
+**Stop saying ₹4–6. Starting your next screen.** Every screen where you opened with ₹4 was a screen you under-qualified yourself out of. From the next one forward, the ASK is ₹6–8, the FLOOR is ₹4.5, the WALK is below that. Memorize the three numbers. The ASK is what you *say*. The FLOOR and WALK are what you *think*.
