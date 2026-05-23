@@ -474,3 +474,76 @@ When this is done, the owner has:
 
 1. **A working tool that tracks the actual job hunt and shipped tailored resumes against real JDs** — meaning the GitHub repo has *real* commits with real demo data (companies he applied to, tailoring runs that produced offers/screens, etc.). This is irreproducible by any clone.
 2. **An offer ≥ ₹4.5 LPA fixed by 15 Jul 2026.** Same primary metric as before. Unchanged.
+
+
+
+---
+
+## 16. Updates — 22 May 2026 (after owner answered the outstanding questions)
+
+### 16.1 Algonox — closed-door confirmed
+
+Owner asked the company about FT conversion. They said: **"they don't have projects, that's why they are not considering me."**
+
+**Interpretation (sharp):** Algonox has no incoming project pipeline that justifies a new full-time salary. They will retain owner at ₹10k/month "trainee temporary" rate to keep maintaining what's already running, but cannot convert him to full-time at any reasonable comp. This is not malice; it is a company that genuinely cannot afford to convert him.
+
+**Consequence:**
+
+- **The §11 counter-offer-as-leverage plan is dead.** There is no FT offer to extract from Algonox at any level.
+- **The Week-2 FT-conversion email script in §11 is no longer needed.** Skip it; the answer is already known.
+- Owner leaves the moment an outside offer is signed, with zero guilt. The company already told him the door is closed.
+- Until an offer is signed, owner stays employed (income > 0 still > ₹10k). Do the work. Mine it for resume metrics every Friday. Do not pre-quit.
+
+### 16.2 Role-targeting lock
+
+Owner reported applying for: *Software Engineer · Backend Engineer · Data Analyst · DevOps Engineer · Software Developer.*
+
+**Diagnosis:** Three of those five are synonyms (SE / SDev / BE). Two (Data Analyst, DevOps Engineer) are entirely different roles requiring different stacks. A candidate spread across five identities reads as unfocused on a recruiter screen — which contributes directly to the screen-to-tech-screen leak diagnosed in §2.
+
+**Locked target list (from this point forward, NO exceptions):**
+
+- ✅ Software Engineer / SDE-1 / Associate Software Engineer
+- ✅ Backend Engineer / Backend Developer
+- ✅ Software Developer
+- ✅ Python Developer
+- ❌ **Data Analyst** — KILL. Wrong stack (SQL + BI + stats). Wastes screens.
+- ❌ **DevOps Engineer** — KILL unless owner can demonstrate Terraform + Kubernetes + AWS-at-depth + monitoring-stack experience (he cannot). Without those, fails tech screens. Reapply at V2 in 12 months after building those skills if interested.
+
+**Filter rule for every JD:** if the role description doesn't read primarily as backend Python work, do not apply. Measure in days that pass without applying to a Data Analyst posting; that's progress.
+
+### 16.3 Comp answer — the screen killer must be fixed today
+
+Owner has been quoting **₹4–6 LPA** to recruiters.
+
+**Diagnosis:** This is not catastrophic (₹10k current is not being disclosed), but it is **systematic underpricing** that directly causes the recruiter-screen → tech-screen leak (§2). Specifically:
+
+- The bottom of any range you state is the number recruiters anchor on. "₹4–6" functionally reads as "₹4."
+- ₹4 is **below your own escape-velocity floor** of ₹4.5 LPA. You have been telling recruiters you would accept less than the minimum that solves your financial problem.
+- Tier-B product companies' SDE-1 bands start at ~₹6 LPA. When you open at ₹4, they conclude either "underqualified" or "doesn't know the market" and end the screen.
+- Tier-C service companies happily lock in at ₹4, which lands you below floor.
+
+**The three-number system (memorize; do not conflate them):**
+
+| Concept | Value | Visibility |
+|---|---|---|
+| **ASK** (public range you state) | **₹6–8 LPA fixed** | Stated to every recruiter, every time |
+| **FLOOR** (lowest offer you'll sign) | **₹4.5 LPA fixed** | Private. Never disclosed. |
+| **WALK** (offer level to decline) | < ₹4.5 LPA fixed | Private. Decline politely; keep searching. |
+
+**Why this works:** Asking ₹6–8 maps you to the Tier-B SDE-1 band. Recruiters negotiate you down to ₹5–6. You sign at ₹5–6, above your floor. You land where you actually need to be — *but only because the public ASK started at ₹6, not ₹4.*
+
+**Mandatory scripts (verbatim, every recruiter screen, no exceptions):**
+
+> *Recruiter: "What's your current CTC?"*
+> *You: "I'd prefer to focus on the role and expectations. My current role is a structured trainee program with non-standard pay; it's not a benchmark for my next role."*
+
+> *Recruiter: "What are you looking for?"*
+> *You: "₹6–8 LPA fixed, open for the right opportunity."*
+
+> *Recruiter: "Our band is ₹4–5 LPA."*
+> *You: "That's below where I'd be open to moving for an SDE-1 backend role. I'd need to see the full package — fixed, variable, joining bonus — to evaluate."*
+
+> *Recruiter (third time pressing on current CTC): "I really need a number."*
+> *You: "It's a trainee stipend, not a salary; I'd rather discuss what your team pays a junior backend engineer."*
+
+**Stop saying ₹4–6. Starting your next screen.** Every screen where you opened with ₹4 was a screen you under-qualified yourself out of. From the next one forward, the ASK is ₹6–8, the FLOOR is ₹4.5, the WALK is below that. Memorize the three numbers. The ASK is what you *say*. The FLOOR and WALK are what you *think*.

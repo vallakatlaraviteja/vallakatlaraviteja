@@ -9,7 +9,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from app import __version__
 from app.config import get_settings
 from app.core.logging import configure_logging, get_logger
-from app.routers import auth, candidate, events, health, jobs
+from app.routers import analytics, applications, auth, candidate, events, health, jobs
 
 configure_logging()
 log = get_logger(__name__)
@@ -40,7 +40,9 @@ def create_app() -> FastAPI:
     app.include_router(auth.router, prefix="/api/auth", tags=["auth"])
     app.include_router(candidate.router, prefix="/api/candidate", tags=["candidate"])
     app.include_router(jobs.router, prefix="/api/jobs", tags=["jobs"])
+    app.include_router(applications.router, prefix="/api/applications", tags=["applications"])
     app.include_router(events.router, prefix="/api/events", tags=["events"])
+    app.include_router(analytics.router, prefix="/api/analytics", tags=["analytics"])
 
     @app.on_event("startup")
     async def _startup() -> None:

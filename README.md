@@ -1,93 +1,59 @@
-# Hi 👋, I'm Raviteja Vallakatla
+# Raviteja Vallakatla
 
-**Software Engineer | Python & Backend Developer | DevOps & OCR Systems**
+**Backend & DevOps Engineer · Python · Docker · Document Intelligence**
 
----
+Hyderabad, India · [LinkedIn](https://linkedin.com/in/raviteja-vallakatla9848/) · ravitejavallakatla@gmail.com
 
-## 🎯 About Me
-
-I'm a Software Engineer with hands-on experience building backend systems, deploying production workflows, and engineering intelligent document processing pipelines. I've worked on real-time production environments, managing end-to-end deployments across UAT, PreProd, and Production using Docker and Linux. Passionate about clean code, scalable architectures, and automating complex workflows.
+Backend engineer with ~1 year of production experience shipping a multi-service OCR / document-intelligence platform. Owner of end-to-end deployments across UAT, PreProd, and Production on Linux + Docker. Comfortable with multi-database migrations across Oracle, MySQL, and MS SQL Server. Looking for an SDE-1 backend role at a product team in Hyderabad or remote-from-India.
 
 ---
 
-## 🛠 Technical Skills & Tools
+## Featured projects
 
-![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=Python)
-![C++](https://img.shields.io/badge/-C++-black?style=flat-square&logo=cplusplus)
-![REST APIs](https://img.shields.io/badge/-REST%20APIs-black?style=flat-square)
-![Microservices](https://img.shields.io/badge/-Microservices-black?style=flat-square)
-![Docker](https://img.shields.io/badge/-Docker-black?style=flat-square&logo=docker)
-![Linux](https://img.shields.io/badge/-Linux-black?style=flat-square&logo=linux)
-![Oracle SQL](https://img.shields.io/badge/-Oracle%20SQL-black?style=flat-square&logo=oracle)
-![MySQL](https://img.shields.io/badge/-MySQL-black?style=flat-square&logo=mysql)
-![MS SQL Server](https://img.shields.io/badge/-MS%20SQL%20Server-black?style=flat-square&logo=microsoftsqlserver)
-![AWS](https://img.shields.io/badge/-AWS-black?style=flat-square&logo=amazonaws)
-![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
-![HTML](https://img.shields.io/badge/-HTML-black?style=flat-square&logo=html5)
-![CSS](https://img.shields.io/badge/-CSS-black?style=flat-square&logo=css3)
-![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)
+### [`hireloop`](./hireloop/) — Personal AI job-acquisition cockpit *(in active use)*
 
----
+A production-grade FastAPI + Postgres + Next.js cockpit I built to run my own job hunt. Three features, scoped tight: application CRM with state-machine pipeline (`saved → applied → recruiter screen → tech → onsite → offer`), AI resume tailoring against pasted JDs, and a daily-cadence enforcer.
 
-## 📌 Featured Projects
+- **Stack:** FastAPI 0.115 · SQLAlchemy 2.x async · Postgres 16 + pgvector · Redis + RQ · Next.js 14 (App Router, TypeScript, Tailwind, TanStack Query) · Anthropic Claude · OpenAI embeddings · Docker Compose · GitHub Actions CI
+- **Engineering choices captured as ADRs:** [stack lock-in](./hireloop/docs/adr/0001-stack.md) · [single-owner mode](./hireloop/docs/adr/0002-single-owner-mode.md) · [no-scraping / no-auto-apply policy](./hireloop/docs/adr/0003-no-scraping-no-autoapply.md)
+- **Architecture:** [`hireloop/docs/architecture.md`](./hireloop/docs/architecture.md)
+- **State machine:** pure-Python validator with full parametric test coverage of every legal/illegal pipeline transition ([`tests/test_state_machine.py`](./hireloop/api/tests/test_state_machine.py))
+- **Funnel analytics:** `GET /api/analytics/funnel` derives stage counts and conversion rates from the append-only event log
 
-### 🔍 OCR Format Detection & Extraction Engine *(Production / Work Project)*
-Built a production-grade OCR document classification and preprocessing system deployed across UAT, PreProd, and Production environments.
+### OCR Format Detection & Extraction Engine *(production work at Algonox)*
 
-- 📐 Designed a document-aware **PDF rotation & skew correction** system as a pre-processing stage, improving extraction accuracy on tilted/rotated scans
-- 📊 Engineered **4 scoring models** — OCR confidence, projection variance, structural line detection, aspect ratio — with weighted combination per document type (text/table/mixed)
-- 🐳 Built and deployed **Docker images for multiple microservices** using `docker-compose`, managing container recreation and environment-specific configurations
-- 🗄️ Executed **database migrations** across Oracle SQL, MySQL, and MS SQL Server — including DDL scripts, data scripts, backup procedures, and post-deployment sanity checks
-- ⚙️ Managed **OCR service configuration**, environment variables, and license activation across client environments
-- 🖥️ Deployed Python application files to live Linux servers with backup, permission management, and container recreation
+A document-aware OCR pipeline serving real client traffic across UAT / PreProd / Production environments.
+
+- Designed a **PDF rotation & skew-correction module** with 4 scoring methods (OCR confidence, projection variance, structural-line detection, aspect ratio) combined with weighted per-document-type selection
+- Owned **Docker / docker-compose deployments** for `camundaworkflow`, `business_rules_api`, and `prediction_api` services across multiple environments
+- Executed **schema and data migrations** across Oracle SQL, MySQL, and MS SQL Server with DDL scripts, data inserts, pre-migration backups, and post-deployment sanity checks
+- Managed **ABBYY OCR systemd service** configuration, env vars, and license activation across client deployments
 
 ---
 
-### 🎵 Spotify-Inspired Music Streaming Web Application
-A full-featured music streaming web app with playlist management and real-time authentication.
+## Experience
 
-- 🔐 Implemented secure authentication and authorization using **Firebase**
-- 🎨 Built a responsive front end using **HTML, CSS, and JavaScript** with real-time form validation
-- 📱 Designed with a clean, Spotify-inspired UI
+**Software Engineer (Trainee Program)** — Algonox Technologies Pvt. Ltd., Hyderabad · *Jun 2025 – Present*
+Production OCR / document-intelligence platform. Backend Python, multi-DB migrations, Linux deployments, Docker microservices. See OCR project above for detail.
 
 ---
 
-## 💼 Experience
+## Education
 
-**Software Engineer Trainee** — *Algonox Technologies Pvt. Ltd., Hyderabad* *(Jun 2025 – Present)*
-- Developed backend components using Python to support real-time business logic and issue resolution
-- Conducted structured code reviews to improve code clarity, maintainability, and execution efficiency
-- Leveraged Oracle SQL, Oracle SQL Developer, MS SQL Server, and MySQL for query optimization and data integrity checks
-- Supported UAT deployment validation and stability checks to reduce post-release defects
+**B.Tech, Computer Science** — Jayamukhi Institute of Technological Sciences, Warangal · *2021 – 2025* · CGPA 8.01
 
 ---
 
-## 🎓 Education
+## Skills
 
-**B.Tech in Computer Science** — *Jayamukhi Institute of Technological Sciences, Warangal* *(2021 – 2025)*  
-CGPA: 8.01
-
----
-
-## 📈 GitHub Stats
-
-![Raviteja's GitHub stats](https://github-readme-stats.vercel.app/api?username=vallakatlaraviteja&show_icons=true&theme=default)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=vallakatlaraviteja&layout=compact)
+- **Backend:** Python, FastAPI, REST APIs, microservices, async SQLAlchemy
+- **Databases:** Oracle SQL, MySQL, MS SQL Server, Postgres + pgvector
+- **DevOps:** Docker, docker-compose, Linux, CI/CD, GitHub Actions, AWS basics
+- **Tools:** Git, Alembic, pytest, structlog, OpenTelemetry-ready services
+- **Domain:** OCR / document intelligence (ABBYY, Tesseract)
 
 ---
 
-## 🌱 Currently Exploring
+## How I work
 
-- Advanced OCR and document intelligence pipelines
-- Cloud-native deployments and CI/CD automation
-- Backend architecture patterns and distributed systems
-
----
-
-## 🤝 Let's Connect!
-
-Feel free to reach out to discuss Python, backend systems, DevOps, or production deployment challenges!
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/raviteja-vallakatla9848/)
-[![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github)](https://github.com/vallakatlaraviteja/)
-📧 ravitejavallakatla@gmail.com
+Engineering decisions live as Architecture Decision Records, not folklore. Pull requests describe what changed and *why*, with stop-loss criteria for risky bets. See [`STRATEGY.md`](./STRATEGY.md) for the methodology I'm applying to my current job hunt — pressure-tested assumptions, target archetype, comp strategy, and a 6-week execution plan with measurable stop-loss triggers.

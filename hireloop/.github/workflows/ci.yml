@@ -23,13 +23,13 @@ jobs:
       - run: ruff format --check .
       - name: Type check
         run: mypy app || true   # advisory in V0
-      - name: Tests
+      - name: Tests (DB-free)
         env:
           OWNER_EMAIL: owner@example.com
           SESSION_SECRET: test-test-test-test-test
           DATABASE_URL: postgresql+asyncpg://x:y@localhost/none
           DATABASE_SYNC_URL: postgresql+psycopg://x:y@localhost/none
-        run: pytest -q tests/test_health.py
+        run: pytest -q tests/test_health.py tests/test_state_machine.py
 
   web:
     runs-on: ubuntu-latest
