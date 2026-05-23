@@ -1,9 +1,9 @@
 # Job Acquisition Strategy — Raviteja Vallakatla
 
-**Status:** v1 — initial strategy
+**Status:** v2 — first-person operating manual
 **Owner:** Raviteja Vallakatla
 **Operating mode:** Truth-first, evidence-driven, no fake positivity. Every plan is pressure-tested under **Assumptions / Attack / Edge cases / Alternatives / Verdict** before commit.
-**Primary metric:** Signed full-time offer at **≥ ₹4.5 LPA fixed**, Hyderabad / remote-from-India, **by 15 July 2026** (~6 weeks from 22 May 2026).
+**Primary metric:** Signed full-time offer at **≥ ₹4.5 LPA fixed by 15 July 2026** (~6 weeks from 22 May 2026), based **anywhere onsite in India** OR **India-based US-shift / overnight role**.
 
 > This is not a job hunt. It is an escape from below-market exploitation labor.
 > Every decision in this document is filtered through that lens.
@@ -36,19 +36,19 @@
 
 ---
 
-## 2. Diagnosis — why the funnel leaks
+## 2. Diagnosis — why my funnel leaks
 
-The funnel says **the leak is recruiter-screen → tech-screen**, not applications-to-screens. Top-of-funnel positioning is roughly OK; you're losing the candidate *after* the recruiter looks closely. Five typical causes — ranked by what's killing **you**, specifically:
+The funnel says **the leak is recruiter-screen → tech-screen**, not applications-to-screens. Top-of-funnel positioning is roughly OK; I'm losing candidates *after* the recruiter looks closely. Five typical causes — ranked by what's killing **me**, specifically:
 
 1. **TITLE: "Software Engineer Trainee (Temporary)" with 11 months tenure.** Recruiters reading this think: *"Why hasn't his employer converted him? Either the company doesn't have headcount [signal: small/struggling], or he isn't good enough to convert [signal: avoid], or he tolerates poor terms [signal: he'll undersell himself, will jump again fast]."* Whichever interpretation, screen ends.
 
-2. **NO PUBLIC PROOF.** The GitHub profile README is well-written narrative, but recruiters who click through find no repos with real code. Narrative without artifact is **worse than empty profile** — it sets expectation, then breaks it. Tier-3 college + Trainee title means GitHub is the single largest *controllable* signal of skill, and it's currently zero.
+2. **NO PUBLIC PROOF.** My GitHub profile README is well-written narrative, but recruiters who click through find no repos with real code. Narrative without artifact is **worse than empty profile** — it sets expectation, then breaks it. Tier-3 college + Trainee title means GitHub is the single largest *controllable* signal of my skill, and it was currently zero. (Now resolved by `hireloop` — see §15.)
 
-3. **NO METRICS IN BULLETS.** Every bullet describes *what you did*; none describe *what changed*. Recruiters skim for numbers (% improvement, throughput, scale). Yours has none. The OCR/Docker/multi-DB work is genuinely strong, but the framing makes it look generic.
+3. **NO METRICS IN BULLETS.** Every bullet describes *what I did*; none describe *what changed*. Recruiters skim for numbers (% improvement, throughput, scale). Mine has none. The OCR/Docker/multi-DB work is genuinely strong, but the framing makes it look generic.
 
-4. **BROKEN ENGLISH IN BULLET 2.** *"I have experience working on production systems handling real-time workflows..."* — first-person sentence in a third-person bullet list. For a non-native speaker, this anchors the recruiter's read of communication ability. **One sentence, big damage.**
+4. **BROKEN ENGLISH IN BULLET 2.** *"I have experience working on production systems handling real-time workflows..."* — first-person sentence in a third-person bullet list. As a non-native speaker, this anchors recruiters' read of my communication ability. **One sentence, big damage.**
 
-5. **APPLYING TO THE WRONG ROLES.** You reported recruiter-screen rejections of type (i) "we don't sponsor visas." If you're in India applying to India jobs, this should not be happening. Means you're spending cycles on US/EU-only remote roles that don't hire from India. **Wasted effort.**
+5. **APPLYING TO THE WRONG ROLES.** I've gotten recruiter-screen rejections of type (i) "we don't sponsor visas." Since I'm in India applying to India jobs, this should not be happening. Means I've been spending cycles on US/EU-only remote roles that don't hire from India. **Wasted effort.** (See §16.4 below — geography rules now updated to use the correct India-onsite + US-shift filters.)
 
 Order of repair: **(2) GitHub** → **(3+4) Resume rewrite** → **(1) reframe Trainee** → **(5) tighten targeting**. Order matters because resume edits without GitHub artifacts ring hollow.
 
@@ -67,7 +67,7 @@ This is not exaggeration. It's the same facts framed by *outcome and ownership* 
 ### One-line elevator answer (memorize, deliver verbatim in screens)
 > *"I'm a backend engineer with about a year of production experience at a Hyderabad document-AI company. I own deployments across UAT, PreProd, and Production for a multi-service OCR pipeline — Python, Docker, Linux, Oracle and MySQL — and I built the document-skew preprocessing layer that fixed extraction accuracy on rotated scans. I'm looking for an SDE-1 backend role at a product company where I can keep working on real systems."*
 
-~30 seconds. Strong. Specific. No "trainee" in it. No apology. Practice it until you can deliver it without thinking. **This single sentence is your highest-leverage interview asset.**
+~30 seconds. Strong. Specific. No "trainee" in it. No apology. I'll practice it until natural delivery. **This single sentence is my highest-leverage interview asset.**
 
 ---
 
@@ -84,15 +84,17 @@ This is not exaggeration. It's the same facts framed by *outcome and ownership* 
 ### Job titles to AVOID
 - "Senior" anything (will be rejected at screen)
 - "Lead" / "Tech Lead" (same)
-- Pure frontend (you don't have JS depth — wastes screens)
+- Pure frontend (I don't have JS depth — wastes screens)
 - Data Scientist / ML Engineer (needs different stack signal)
-- Full-stack at product companies (your JS isn't deep enough; you'll get burnt at tech screen)
+- Full-stack at product companies (my JS isn't deep enough; I'd get burnt at tech screen)
 
-### Geography filter
-- Hyderabad (primary)
-- Bangalore / Pune / Chennai / NCR (only if remote-OK or you'd relocate)
-- Remote India only (NOT remote global — those almost never hire from India in the timeframe)
-- Reject: anything requiring passport/visa/travel
+### Geography & shift filter (updated — see §16.4 for full rationale)
+- ✅ **Hyderabad onsite** (primary, no relocation cost)
+- ✅ **Any major Indian city onsite** (Bangalore, Pune, Chennai, NCR, Mumbai) — willing to relocate
+- ✅ **Remote-from-India** for India-based companies
+- ✅ **US-shift / overnight India-based roles** — opens the GIC market widely (Microsoft IDC, Amazon, JPMC, Wells Fargo, Goldman Sachs, Deutsche Bank, Morgan Stanley, BofA, Citi, etc.)
+- ❌ Reject: roles requiring passport / international travel (no passport)
+- ❌ Reject: direct-remote-from-India for global companies that don't have a registered India entity
 
 ### Company tiers (where to spend effort)
 
@@ -121,7 +123,7 @@ Hyderabad-based or strong Hyderabad presence:
 *Big tech, FAANG-tier, ₹14–25+ LPA*
 
 - Microsoft IDC, Amazon Hyderabad, Google, Salesforce, ServiceNow, Atlassian, Qualcomm, Uber, Walmart Labs, DE Shaw, JPMC, Wells Fargo Tech
-- Apply *only* through 2nd-degree LinkedIn referrals — direct apps from your profile won't survive ATS at these.
+- Apply *only* through 2nd-degree LinkedIn referrals — direct apps from my profile won't survive ATS at these.
 
 ---
 
@@ -134,9 +136,9 @@ Hyderabad-based or strong Hyderabad presence:
 | Offer at ≥ ₹6 LPA fixed | Negotiate hard for ₹7–8. Ask for stock/joining bonus separately. |
 | Offer at ₹4.5–6 LPA fixed | Accept if no other live process; negotiate for ₹5+. This is escape velocity. |
 | Offer below ₹4.5 LPA | Decline politely. Continue search. |
-| Algonox counter-offers FT conversion | Decline anything below ₹6 LPA. They had a year to value you correctly. They didn't. |
+| Algonox counter-offers FT conversion | Hypothetical only — answer already received per §16.1. If somehow they came back with an offer, decline anything below ₹6 LPA. They had a year to value me correctly. They didn't. |
 
-**Why ₹4.5 LPA is the floor:** Mathematically, anything lower keeps you in financial fragility. Anything at or above it gives you ~₹30k/month take-home, allows you to start saving, and puts you in a normal-comp position to job-hop again in 12–18 months for the bigger jump.
+**Why ₹4.5 LPA is the floor:** Mathematically, anything lower keeps me in financial fragility. Anything at or above it gives me ~₹30k/month take-home, lets me start saving, and puts me in a normal-comp position to job-hop again in 12–18 months for the next bigger jump.
 
 
 
@@ -144,7 +146,7 @@ Hyderabad-based or strong Hyderabad presence:
 
 ## 6. The 6-week execution plan (day-by-day discipline)
 
-You said "not staying consistent." That stops here. Inconsistency is the largest controllable variable, and it has been killing you for 6 months. The schedule below is non-negotiable. Print it. Stick it to your wall.
+I have not been staying consistent. That stops here. Inconsistency is the largest controllable variable, and it has been killing me for 6 months. The schedule below is non-negotiable. Print and post it where I work.
 
 ### Daily floor (Mon–Fri, while at Algonox) — minimum 3.5 hrs/day on the campaign
 
@@ -169,7 +171,7 @@ You said "not staying consistent." That stops here. Inconsistency is the largest
 #### Week 1 (May 22 – May 28) — **STOP THE BLEED**
 - **Goal:** Resume v2 + GitHub Repo #1 live + LinkedIn rewritten.
 - **Apps target:** 25 (deliberately low — fix positioning before scaling volume)
-- **Outcome metric:** by Sunday EOD, you have a recruiter-ready resume + 1 working GitHub repo with code that proves you can ship.
+- **Outcome metric:** by Sunday EOD, I have a recruiter-ready resume + 1 working GitHub repo with code that proves I can ship.
 
 #### Week 2 (May 29 – Jun 4) — **VOLUME + GITHUB #2**
 - **Goal:** GitHub Repo #2 live + 60 applications (Tier B + Tier C mix)
@@ -198,32 +200,34 @@ You said "not staying consistent." That stops here. Inconsistency is the largest
 
 ### Stop-loss / pivot triggers
 
-- **End of Week 2, < 10 recruiter screens:** Resume + GitHub still failing. Re-diagnose, do not just "apply more."
-- **End of Week 3, 0 tech screens:** Recruiter-screen narrative is broken. Record yourself doing the elevator pitch and review.
-- **End of Week 4, 0 onsites:** Tech-screen execution is the bottleneck. Pause apps for 2 days; intensify DSA + mock interviews.
+- **End of Week 2, < 10 recruiter screens:** My resume + GitHub story is still failing. Re-diagnose, do not just "apply more."
+- **End of Week 3, 0 tech screens:** My recruiter-screen narrative is broken. Record myself doing the elevator pitch and review.
+- **End of Week 4, 0 onsites:** Tech-screen execution is my bottleneck. Pause apps for 2 days; intensify DSA + mock interviews.
 - **End of Week 5, 0 offers and 0 onsites:** Take any Tier-C offer ≥ ₹4 LPA that comes in Week 6. Escape first; optimize later.
 
 ---
 
-## 7. GitHub repair — three repos to ship in 3 weeks
+## 7. GitHub repair — three small repos (FALLBACK PLAN — replaced by `hireloop` per §15)
 
-These are personal projects that *demonstrate the same capabilities you have at Algonox*, **without using any Algonox code or IP**. They are recruiter bait: each one is a 30-second click-through that proves you can write working code. README-driven; deployed if possible.
+> **Note:** This section is the original 3-repo plan. It has been **superseded by §15** (the dual-track plan that uses `hireloop` itself as the deeply-built portfolio piece). Keep this section as the stop-loss fallback: if `hireloop` is not on track at end of Week 2, revert to building these 3 small repos instead.
+
+These are personal projects that *demonstrate the same capabilities I have at Algonox*, **without using any Algonox code or IP**. They are recruiter bait: each one is a 30-second click-through that proves I can write working code. README-driven; deployed if possible.
 
 ### Repo 1 — `doc-skew-detector` (Week 1 — DO THIS FIRST)
-**What:** Python library + CLI that detects skew/rotation in scanned PDF or image documents and corrects it. Mirrors the *concept* of your Algonox preprocessing work; builds with public libraries only.
+**What:** Python library + CLI that detects skew/rotation in scanned PDF or image documents and corrects it. Mirrors the *concept* of my Algonox preprocessing work; builds with public libraries only.
 
 **Stack:** Python 3.11, OpenCV, pytesseract, PyMuPDF, Click, pytest, Docker.
 
 **Must include:**
-- 4 detection methods (projection profile, Hough transform, Tesseract OSD, FFT) with weighted scoring — directly maps to your resume bullet
+- 4 detection methods (projection profile, Hough transform, Tesseract OSD, FFT) with weighted scoring — directly maps to my resume bullet
 - Confidence threshold to skip ambiguous pages
 - CLI: `doc-skew --input file.pdf --output corrected.pdf --threshold 0.7`
 - Dockerfile + `docker-compose.yml`
-- README with: problem statement, results table on a public test set (e.g., FUNSD or your own scanned samples), how-to-run, architecture diagram (1 image)
+- README with: problem statement, results table on a public test set (e.g., FUNSD or my own scanned samples), how-to-run, architecture diagram (1 image)
 - Pytest suite with ≥10 tests
 - GitHub Actions CI: lint + test on push
 
-**Why this repo:** Directly proves the OCR/preprocessing claim on your resume. Recruiter clicks → sees a working tool with measurable accuracy → believes the resume.
+**Why this repo:** Directly proves the OCR/preprocessing claim on my resume. Recruiter clicks → sees a working tool with measurable accuracy → believes the resume.
 
 ### Repo 2 — `multi-db-migrate` (Week 2)
 **What:** Python CLI tool that runs idempotent schema + data migrations across Oracle, MySQL, and MS SQL Server with rollback and dry-run support.
@@ -238,10 +242,10 @@ These are personal projects that *demonstrate the same capabilities you have at 
 - Single docker-compose that spins up Oracle XE + MySQL + MSSQL for local testing
 - README with the multi-DB story
 
-**Why this repo:** Directly proves your "multi-DB migrations across Oracle/MySQL/MSSQL" bullet. Most freshers can't even spin up these three DBs locally; doing it well screens you above the median.
+**Why this repo:** Directly proves my "multi-DB migrations across Oracle/MySQL/MSSQL" bullet. Most freshers can't even spin up these three DBs locally; doing it well screens me above the median.
 
 ### Repo 3 — `pyservice-template` (Week 3)
-**What:** Production-grade FastAPI service template — what you'd reach for on day 1 of a new backend job.
+**What:** Production-grade FastAPI service template — what I'd reach for on day 1 of a new backend job.
 
 **Stack:** FastAPI, Pydantic v2, SQLAlchemy 2.x async, Postgres, Redis, Alembic, structlog, OpenTelemetry, pytest, Docker, docker-compose, GitHub Actions.
 
@@ -256,18 +260,18 @@ These are personal projects that *demonstrate the same capabilities you have at 
 - 3 example endpoints with full CRUD + tests
 - README with architecture diagram + onboarding instructions
 
-**Why this repo:** Shows you can architect a service, not just contribute to one. Sets the expectation that you operate at SDE-1 / mid-junior, not at trainee.
+**Why this repo:** Shows I can architect a service, not just contribute to one. Sets the expectation that I operate at SDE-1 / mid-junior, not at trainee.
 
 ### Repo cosmetics (do this Week 1 along with Repo 1)
 - Each repo: clean README with badges, a "What this is" 2-sentence summary, a runnable example, and a screenshot or output sample.
-- Pin all 3 repos to your GitHub profile.
-- Replace your profile README with a shorter version that links the 3 pinned repos prominently. The current README's narrative is fine but the repos must come first.
+- Pin all 3 repos to my GitHub profile.
+- Replace my profile README with a shorter version that links the 3 pinned repos prominently. The current README's narrative is fine but the repos must come first.
 
 ---
 
 ## 8. Resume rewrite
 
-A complete v2 resume is committed alongside this document as `resume/resume-v2.md`. Read it. Edit metrics where you have real numbers (% accuracy improvement, query count, deployment frequency). Compile to PDF and use this version for *all* future applications.
+A complete v2 resume is committed alongside this document as `resume/resume-v2.md`. I'll edit metrics where I have real numbers (% accuracy improvement, query count, deployment frequency), compile to PDF, and use this version for *all* future applications.
 
 Key changes from v1:
 1. Title presented as **"Software Engineer — Trainee Program"** instead of "Software Engineer Trainee (Temporary)". Same role, sharper framing. Not a lie.
@@ -275,7 +279,7 @@ Key changes from v1:
 3. Every bullet now starts with strong verb + outcome.
 4. Spotify project replaced by the 3 personal projects (as they ship).
 5. Skills section reorganized: Backend (primary), Databases, DevOps, Languages — frontend (HTML/CSS/JS) demoted to one line. Targets backend recruiters.
-6. Top "Summary" line added (3 lines) — what you are, what you've shipped, what you're looking for.
+6. Top "Summary" line added (3 lines) — what I am, what I've shipped, what I'm looking for.
 
 ---
 
@@ -283,11 +287,11 @@ Key changes from v1:
 
 | Section | Action |
 |---|---|
-| Headline | `Backend & DevOps Engineer · Python · Docker · OCR & Document Intelligence · Open to SDE-1 roles in Hyderabad` |
+| Headline | `Backend & DevOps Engineer · Python · Docker · OCR & Document Intelligence · Open to SDE-1 roles · India onsite or US-shift` |
 | About | First paragraph: 3 lines of positioning (same as resume Summary). Second paragraph: 1 sentence on each of the 3 GitHub projects with links. |
-| Featured | Pin the 3 GitHub repos as featured links. |
+| Featured | Pin `hireloop` (and the 3 GitHub repos if §15 stop-loss triggers and I revert to §7). |
 | Experience: Algonox | Mirror the resume v2 bullets exactly. |
-| Open To Work | Turn ON, set to recruiters-only (so Algonox doesn't see). Roles: SDE-1 / Backend Engineer / Python Developer. |
+| Open To Work | Turn ON, set to recruiters-only (so Algonox doesn't see). Roles: SDE-1 / Backend Engineer / Python Developer. **Locations:** all of India (open to relocation). **Workplace:** On-site, Hybrid, Remote. **Hours/shift:** mention US-shift OK in About section (LinkedIn doesn't have a structured field for this). See §16.4 for full details. |
 
 ### Outreach playbook (5 messages/day, M–F)
 - Find target company (Tier B). Find *engineers* in similar role (not recruiters first).
@@ -314,7 +318,7 @@ Reply rate target: 10–15%. So 5/day × 5 days = 25 outreaches/week → 3–4 c
 
 ## 10. Interview prep — what to drill
 
-### DSA (your weakest pillar based on tech-screen leak)
+### DSA (my weakest pillar based on tech-screen leak)
 
 Daily 1× medium. Patterns to drill in this order (pick one per day):
 1. Arrays / two-pointer / sliding window
@@ -352,59 +356,41 @@ That's the truth, framed maximally.
 
 ## 11. The Algonox question — when and how to leave
 
-**Now:** Stay employed. Income > 0 still > ₹10k after fixed costs. **Do not quit until you have a signed offer in hand.** Quitting now = zero income + zero leverage in interviews ("why did you leave with nothing lined up?").
+**Now:** Stay employed. Income > 0 still > ₹10k after fixed costs. **Do not quit until I have a signed offer in hand.** Quitting now = zero income + zero leverage in interviews ("why did you leave with nothing lined up?").
 
-**Have you asked them for FT conversion?** You haven't told me. Do this once, in writing (email, not chat), before end of Week 2:
+**FT conversion?** Already asked. Algonox said: *"no projects, that's why we're not considering you."* Door is closed (see §16.1). No further conversation needed with them until I'm ready to resign.
 
-> "Subject: Discussion — Full-time conversion
->
-> Hi [Manager],
->
-> I've been with Algonox for 11 months as a trainee, working on production OCR systems and multi-environment deployments. I'd like to discuss converting to a full-time engineering role with a corresponding compensation review.
->
-> Could we schedule 30 minutes this week or next?
->
-> Thanks,
-> Raviteja"
-
-**Reasons:**
-1. **Information.** Their answer tells you everything about the company. Yes-with-fair-comp = a real option. Yes-but-₹3-LPA = confirms exploitation, removes guilt about leaving. Vague-non-answer = leave faster.
-2. **Optionality.** A counter-offer at decent comp is leverage with new employers ("I have a ₹6 LPA conversion on the table").
-3. **Ethics-clear.** You asked. They had the chance. Whatever happens after is on them.
-
-**When you sign elsewhere:**
-- Standard 30-day notice (or whatever your contract says — read it).
-- Polite resignation email. Do not burn the bridge — Hyderabad's startup scene is small.
-- Ensure no IP/code from Algonox is in your GitHub repos.
+**When I sign elsewhere:**
+- Standard 30-day notice (or whatever my contract says — read it).
+- Polite resignation email. Do not burn the bridge — Hyderabad's tech scene is small.
+- Ensure no Algonox IP/code is in my personal GitHub repos.
 
 ---
 
-## 12. What we will NOT do (and why)
+## 12. What I will NOT do (and why)
 
-These are tempting "AI job platform" features that will burn your time, your reputation, or both. They are explicitly killed:
+Tempting "AI job platform" features that would burn my time, reputation, or both. Explicitly killed:
 
 - ❌ **Auto-applying to jobs.** Hurts conversion. Some ATS detect and blacklist.
-- ❌ **LinkedIn scraping / mass connect bots.** LinkedIn bans accounts; your professional brand is your only asset.
+- ❌ **LinkedIn scraping / mass connect bots.** LinkedIn bans accounts; my professional brand is my only asset.
 - ❌ **Mass cold-email recruiters.** CAN-SPAM-equivalent under Indian IT Act + violates etiquette. Manual targeted reach-out at 5/day will outperform 500 spam emails.
-- ❌ **Resume "AI optimization" that fabricates skills.** Get caught once, get blacklisted forever. Indian tech community is small.
-- ❌ **Buying premium services like LinkedIn Premium / Naukri Premium right now.** Save the money. They don't move conversion at this stage.
-- ❌ **More than 3 GitHub projects in 6 weeks.** Three deep > ten shallow. Recruiters look at one. Make it good.
-- ❌ **A complex AI job-acquisition platform.** That's later, if at all. Strategy + execution discipline > tooling. We will discuss minimum useful tooling AFTER this strategy is in execution.
+- ❌ **Resume "AI optimization" that fabricates skills.** Get caught once, blacklisted forever. The Indian tech community is small.
+- ❌ **Buying premium services (LinkedIn Premium / Naukri Premium) right now.** Save the money. They don't move conversion at this stage.
+- ❌ **Adding features to `hireloop` mid-build.** Three V0 features (Application CRM, AI Resume Tailoring, Daily Cadence) ship first. Anything else is feature theater.
 
 ---
 
 ## 13. Success criteria — when this strategy is "done"
 
-- [ ] `resume/resume-v2.md` published, PDF exported, used for all new applications
+- [x] `resume/resume-v2.md` drafted and committed (PDF export pending)
 - [ ] LinkedIn rewritten per §9
-- [ ] Algonox FT-conversion email sent (and answer received, in writing if possible)
-- [ ] GitHub repo 1 (`doc-skew-detector`) live with passing CI by end of Week 1
-- [ ] GitHub repo 2 (`multi-db-migrate`) live with passing CI by end of Week 2
-- [ ] GitHub repo 3 (`pyservice-template`) live with passing CI by end of Week 3
-- [ ] All 3 repos pinned on profile; profile README updated
-- [ ] ≥175 applications submitted (Tier B + C mix), tailored not spray
+- [x] Algonox FT-conversion asked — answer received: *"no projects, can't consider"* (§16.1)
+- [x] `hireloop` Phase 1A foundation live on profile (replaces 3-repo plan per §15)
+- [x] `hireloop` Phase 1B (applications CRUD + state machine + funnel + kanban) live on profile
+- [ ] LinkedIn comp script (§16.3) memorized and used in next recruiter screen
+- [ ] ≥175 applications submitted (Tier B + C mix), backend Python only (§16.2 lock)
 - [ ] ≥25 referral asks made (LinkedIn DMs)
-- [ ] ≥10 recruiter screens completed
+- [ ] ≥10 recruiter screens completed using the §16.3 comp script
 - [ ] ≥3 tech screens completed
 - [ ] ≥1 onsite completed
 - [ ] **Signed offer ≥ ₹4.5 LPA fixed by 15 Jul 2026** ← the only metric that matters
@@ -413,23 +399,15 @@ These are tempting "AI job platform" features that will burn your time, your rep
 
 ## 14. What's next
 
-This strategy is the foundation. The next conversation determines what (if any) software tooling materially accelerates this plan vs. just being procrastination dressed up in a tech costume.
+Tooling decision resolved per §15: `hireloop` is the chosen platform — both portfolio piece and (eventually) daily tracker. Phase 1A (foundation) and Phase 1B (applications CRUD + state machine + funnel + kanban) are merged to main. RAM constraints on my current laptop mean I run the daily tracker in a Google Sheet for now; `hireloop` runs as a static portfolio piece on GitHub until cloud deploy or hardware upgrade.
 
-Candidate tooling — only if it removes friction from THIS plan, not as a portfolio piece:
-
-1. **Application tracker (lightweight CRM)** — record every app, screen, follow-up date, outcome. Accountability tool.
-2. **Job aggregator** — pull SDE-1 / backend / Python listings from Cutshort, Instahyre, Wellfound, LinkedIn (legitimate API/RSS only — no scraping). Filter by India-based, ₹4.5 LPA+, junior-level.
-3. **Resume tailoring helper** — take base resume + job description, produce a tailored draft in 60 seconds. You review and submit (no auto-apply).
-4. **Daily cadence enforcer** — checklist + streak tracker for the daily floor.
-5. **Outreach drafting helper** — produce personalized first messages from a target company URL + your base profile.
-
-These are the only candidates. Anything beyond this list is feature theater.
+Primary focus from here is **execution**: applications submitted, screens converted using the §16.3 comp script, offers landed. The cockpit is in service of the offer, not the other way around.
 
 ---
 
-**This document is v1. It will be revised at the end of each week's review.**
+**This document is v2. It will be revised at the end of each week's review.**
 
-*Last revised: 22 May 2026.*
+*Last revised: 23 May 2026.*
 
 
 
@@ -441,15 +419,15 @@ These are the only candidates. Anything beyond this list is feature theater.
 
 ### Why this works
 
-The original plan called for three small repos (`doc-skew-detector`, `multi-db-migrate`, `pyservice-template`) to repair the GitHub gap. A **single, deeply-built personal job-acquisition cockpit** outguns that — *if* scope stays disciplined. It gives a coherent recruiter narrative:
+The original plan called for three small repos (`doc-skew-detector`, `multi-db-migrate`, `pyservice-template`) to repair my GitHub gap. A **single, deeply-built personal job-acquisition cockpit** outguns that — *if* scope stays disciplined. It gives me a coherent recruiter narrative:
 
-> *"I built `hireloop` to escape an exploitative trainee role. It is the cockpit I used for this job hunt. Pipeline tracker + AI resume tailoring + daily cadence enforcement. FastAPI, Postgres, pgvector, Next.js. ~5,000 lines. Deployed on Fly.io. Want to see it?"*
+> *"I built `hireloop` to escape an exploitative trainee role. It's the cockpit I built for my own job hunt — pipeline tracker + AI resume tailoring + daily cadence enforcement. FastAPI, Postgres, pgvector, Next.js. ~5,000 lines. Want to see it?"*
 
 That is a hire-worthy story for an SDE-1 / backend role at any Tier-B Indian product company.
 
 ### Scope discipline (non-negotiable)
 
-V0 ships **3 features only**: Application CRM, AI Resume Tailoring, Daily Cadence. The 30+ features the original prompt asked for are explicitly killed in the repo's [README](./hireloop/README.md) and [ADR 0003](./hireloop/docs/adr/0003-no-scraping-no-autoapply.md). If owner asks to add features mid-build, the answer is no until V0 ships and is in daily use.
+V0 ships **3 features only**: Application CRM, AI Resume Tailoring, Daily Cadence. The 30+ features the original prompt asked for are explicitly killed in the repo's [README](./hireloop/README.md) and [ADR 0003](./hireloop/docs/adr/0003-no-scraping-no-autoapply.md). I will not add features mid-build until V0 is shipped and in daily use.
 
 ### Time budget
 
@@ -464,16 +442,16 @@ If `hireloop` is not on track at end of Week 2 (foundation + applications CRUD w
 ### What lives where
 
 - `hireloop/` — the platform repo (currently a subdirectory; extract to `vallakatlaraviteja/hireloop` before recruiter showcase)
-- `hireloop/STRATEGY.md`-equivalent → not duplicated; the owner's hiring strategy stays here in the root `STRATEGY.md`
+- root `STRATEGY.md` — my hiring strategy (this document); not duplicated inside `hireloop/`
 - `hireloop/docs/architecture.md` — system design
 - `hireloop/docs/adr/` — irreversible decisions captured (stack, single-owner, no-scraping policy)
 
 ### Dual outcome
 
-When this is done, the owner has:
+When this is done, I have:
 
-1. **A working tool that tracks the actual job hunt and shipped tailored resumes against real JDs** — meaning the GitHub repo has *real* commits with real demo data (companies he applied to, tailoring runs that produced offers/screens, etc.). This is irreproducible by any clone.
-2. **An offer ≥ ₹4.5 LPA fixed by 15 Jul 2026.** Same primary metric as before. Unchanged.
+1. **A working tool that tracks my actual job hunt and shipped tailored resumes against real JDs** — meaning the GitHub repo has *real* commits with real demo data (companies I applied to, tailoring runs that produced offers/screens, etc.). Irreproducible by any clone.
+2. **An offer ≥ ₹4.5 LPA fixed by 15 Jul 2026.** Same primary metric. Unchanged.
 
 
 
@@ -483,20 +461,20 @@ When this is done, the owner has:
 
 ### 16.1 Algonox — closed-door confirmed
 
-Owner asked the company about FT conversion. They said: **"they don't have projects, that's why they are not considering me."**
+I asked Algonox about full-time conversion. They said: **"they don't have projects, that's why they are not considering me."**
 
-**Interpretation (sharp):** Algonox has no incoming project pipeline that justifies a new full-time salary. They will retain owner at ₹10k/month "trainee temporary" rate to keep maintaining what's already running, but cannot convert him to full-time at any reasonable comp. This is not malice; it is a company that genuinely cannot afford to convert him.
+**Interpretation (sharp):** Algonox has no incoming project pipeline that justifies a new full-time salary. They will retain me at ₹10k/month "trainee temporary" rate to keep maintaining what's already running, but cannot convert me to full-time at any reasonable comp. This is not malice; it is a company that genuinely cannot afford to convert me.
 
 **Consequence:**
 
 - **The §11 counter-offer-as-leverage plan is dead.** There is no FT offer to extract from Algonox at any level.
-- **The Week-2 FT-conversion email script in §11 is no longer needed.** Skip it; the answer is already known.
-- Owner leaves the moment an outside offer is signed, with zero guilt. The company already told him the door is closed.
-- Until an offer is signed, owner stays employed (income > 0 still > ₹10k). Do the work. Mine it for resume metrics every Friday. Do not pre-quit.
+- **The Week-2 FT-conversion email script is no longer needed.** Skip it; the answer is already known.
+- I leave the moment an outside offer is signed, with zero guilt. The company already told me the door is closed.
+- Until an offer is signed, I stay employed (income > 0 still > ₹10k). Do the work. Mine it for resume metrics every Friday. Do not pre-quit.
 
 ### 16.2 Role-targeting lock
 
-Owner reported applying for: *Software Engineer · Backend Engineer · Data Analyst · DevOps Engineer · Software Developer.*
+I've been applying for: *Software Engineer · Backend Engineer · Data Analyst · DevOps Engineer · Software Developer.*
 
 **Diagnosis:** Three of those five are synonyms (SE / SDev / BE). Two (Data Analyst, DevOps Engineer) are entirely different roles requiring different stacks. A candidate spread across five identities reads as unfocused on a recruiter screen — which contributes directly to the screen-to-tech-screen leak diagnosed in §2.
 
@@ -507,43 +485,90 @@ Owner reported applying for: *Software Engineer · Backend Engineer · Data Anal
 - ✅ Software Developer
 - ✅ Python Developer
 - ❌ **Data Analyst** — KILL. Wrong stack (SQL + BI + stats). Wastes screens.
-- ❌ **DevOps Engineer** — KILL unless owner can demonstrate Terraform + Kubernetes + AWS-at-depth + monitoring-stack experience (he cannot). Without those, fails tech screens. Reapply at V2 in 12 months after building those skills if interested.
+- ❌ **DevOps Engineer** — KILL unless I can demonstrate Terraform + Kubernetes + AWS-at-depth + monitoring-stack experience (I cannot today). Without those, I'd fail tech screens. Reapply at V2 in 12 months after building those skills if interested.
 
 **Filter rule for every JD:** if the role description doesn't read primarily as backend Python work, do not apply. Measure in days that pass without applying to a Data Analyst posting; that's progress.
 
 ### 16.3 Comp answer — the screen killer must be fixed today
 
-Owner has been quoting **₹4–6 LPA** to recruiters.
+I've been quoting **₹4–6 LPA** to recruiters.
 
 **Diagnosis:** This is not catastrophic (₹10k current is not being disclosed), but it is **systematic underpricing** that directly causes the recruiter-screen → tech-screen leak (§2). Specifically:
 
-- The bottom of any range you state is the number recruiters anchor on. "₹4–6" functionally reads as "₹4."
-- ₹4 is **below your own escape-velocity floor** of ₹4.5 LPA. You have been telling recruiters you would accept less than the minimum that solves your financial problem.
-- Tier-B product companies' SDE-1 bands start at ~₹6 LPA. When you open at ₹4, they conclude either "underqualified" or "doesn't know the market" and end the screen.
-- Tier-C service companies happily lock in at ₹4, which lands you below floor.
+- The bottom of any range I state is the number recruiters anchor on. "₹4–6" functionally reads as "₹4."
+- ₹4 is **below my own escape-velocity floor** of ₹4.5 LPA. I have been telling recruiters I would accept less than the minimum that solves my financial problem.
+- Tier-B product companies' SDE-1 bands start at ~₹6 LPA. When I open at ₹4, they conclude either "underqualified" or "doesn't know the market" and end the screen.
+- Tier-C service companies happily lock in at ₹4, which lands me below floor.
 
 **The three-number system (memorize; do not conflate them):**
 
 | Concept | Value | Visibility |
 |---|---|---|
-| **ASK** (public range you state) | **₹6–8 LPA fixed** | Stated to every recruiter, every time |
-| **FLOOR** (lowest offer you'll sign) | **₹4.5 LPA fixed** | Private. Never disclosed. |
+| **ASK** (public range I state) | **₹6–8 LPA fixed** | Stated to every recruiter, every time |
+| **FLOOR** (lowest offer I'll sign) | **₹4.5 LPA fixed** | Private. Never disclosed. |
 | **WALK** (offer level to decline) | < ₹4.5 LPA fixed | Private. Decline politely; keep searching. |
 
-**Why this works:** Asking ₹6–8 maps you to the Tier-B SDE-1 band. Recruiters negotiate you down to ₹5–6. You sign at ₹5–6, above your floor. You land where you actually need to be — *but only because the public ASK started at ₹6, not ₹4.*
+**Why this works:** Asking ₹6–8 maps me to the Tier-B SDE-1 band. Recruiters negotiate me down to ₹5–6. I sign at ₹5–6, above my floor. I land where I actually need to be — *but only because the public ASK started at ₹6, not ₹4.*
 
 **Mandatory scripts (verbatim, every recruiter screen, no exceptions):**
 
 > *Recruiter: "What's your current CTC?"*
-> *You: "I'd prefer to focus on the role and expectations. My current role is a structured trainee program with non-standard pay; it's not a benchmark for my next role."*
+> *Me: "I'd prefer to focus on the role and expectations. My current role is a structured trainee program with non-standard pay; it's not a benchmark for my next role."*
 
 > *Recruiter: "What are you looking for?"*
-> *You: "₹6–8 LPA fixed, open for the right opportunity."*
+> *Me: "₹6–8 LPA fixed, open for the right opportunity."*
 
 > *Recruiter: "Our band is ₹4–5 LPA."*
-> *You: "That's below where I'd be open to moving for an SDE-1 backend role. I'd need to see the full package — fixed, variable, joining bonus — to evaluate."*
+> *Me: "That's below where I'd be open to moving for an SDE-1 backend role. I'd need to see the full package — fixed, variable, joining bonus — to evaluate."*
 
 > *Recruiter (third time pressing on current CTC): "I really need a number."*
-> *You: "It's a trainee stipend, not a salary; I'd rather discuss what your team pays a junior backend engineer."*
+> *Me: "It's a trainee stipend, not a salary; I'd rather discuss what your team pays a junior backend engineer."*
 
-**Stop saying ₹4–6. Starting your next screen.** Every screen where you opened with ₹4 was a screen you under-qualified yourself out of. From the next one forward, the ASK is ₹6–8, the FLOOR is ₹4.5, the WALK is below that. Memorize the three numbers. The ASK is what you *say*. The FLOOR and WALK are what you *think*.
+**Stop saying ₹4–6. Starting next screen.** Every screen where I opened with ₹4 was a screen I under-qualified myself out of. From the next one forward, the ASK is ₹6–8, the FLOOR is ₹4.5, the WALK is below that. Memorize the three numbers. The ASK is what I *say*. The FLOOR and WALK are what I *think*.
+
+### 16.4 Geography & shift expansion — opens the GIC market
+
+**What changed:** I'm comfortable with **onsite anywhere in India** (willing to relocate to Bangalore, Pune, Chennai, NCR, Mumbai, etc.) AND **US-shift / overnight roles**. This significantly expands my addressable market vs the original Hyderabad-only / Indian-business-hours framing.
+
+**Why this matters:** US-shift willingness specifically opens the **Global In-house Center (GIC)** market — Indian subsidiaries of US firms that explicitly hire backend engineers for US-overlap or full-night-shift work. This is a *huge* slice of the Indian junior-backend hiring market and was previously filtered out of my targeting.
+
+**GIC targets to add to Tier B (apply directly):**
+
+- **Microsoft IDC** (Hyderabad/Bangalore) — many backend SDE roles flag US-overlap
+- **Amazon** (Hyderabad/Bangalore) — Amazon Web Services, retail tech, 24×7 ops teams
+- **JPMorgan Chase** (Mumbai/Bangalore/Hyderabad) — Java/Python backend, finance
+- **Goldman Sachs** (Bangalore/Hyderabad) — Marquee, Strats, Engineering Division
+- **Wells Fargo Tech** (Hyderabad/Bangalore/Chennai) — explicitly hires US-shift backend engineers
+- **Morgan Stanley** (Mumbai/Bangalore) — institutional & wealth-management tech
+- **Bank of America** (Mumbai/Hyderabad)
+- **Deutsche Bank Technology** (Pune/Bangalore)
+- **Citi** (Pune/Chennai/Bangalore) — global consumer + ICG tech
+- **Barclays** (Pune/Chennai)
+- **HSBC Technology** (Pune/Hyderabad)
+- **Optum** (Hyderabad/Bangalore) — UnitedHealth Group's tech arm; explicit US-shift roles
+- **Cisco IDC** (Bangalore)
+- **Salesforce** (Hyderabad/Bangalore)
+- **ServiceNow** (Hyderabad)
+
+**Search modifiers to add to job-board filters:**
+- "US shift", "Night shift", "EST", "PST", "global support", "US client"
+- These flag the 24×7 / US-overlap roles that are now in scope.
+
+**Comp expectation at GIC level:**
+- GIC SDE-1 bands typically start at **₹8–14 LPA fixed** (significantly above my §16.3 ASK of ₹6–8 — leaves more headroom in the ASK without ringing alarms)
+- Many include night-shift allowance + transport + cab home
+- US-shift trade-off: sleep schedule disruption is real; budget for it as a mid-term lifestyle cost, but it's worth it for a 2–3× pay jump out of ₹10k/month
+
+**Updated `Open To Work` settings on LinkedIn (overrides §9):**
+- Locations: **India** (open to relocation) + Hyderabad, Bangalore, Pune, Chennai, Delhi NCR, Mumbai
+- Workplace: **On-site, Hybrid, Remote**
+- Hours: **Night/US-shift OK** (mark this in the settings if available; mention in About section)
+
+**Updated comp ASK for GIC-tier targets:**
+- For Tier-B GIC roles where their band is known to be ₹8–14: ASK can rise to **₹8–10 LPA fixed**
+- For Tier-B startup roles: keep §16.3 ASK at **₹6–8 LPA**
+- Tier-C floor unchanged at ₹4.5 LPA
+
+**Hard rejects unchanged:**
+- ❌ Roles requiring international travel (no passport)
+- ❌ Direct-remote-from-India for foreign companies that don't have an Indian entity (rare to actually convert; most are scams or wasted screens)
