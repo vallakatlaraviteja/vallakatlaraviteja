@@ -2,7 +2,7 @@
 
 **Status:** v1 — initial strategy
 **Owner:** Raviteja Vallakatla
-**Operating mode:** Critical Combat Mode (see `.kiro/steering/critical-combat-mode.md`)
+**Operating mode:** Truth-first, evidence-driven, no fake positivity. Every plan is pressure-tested under **Assumptions / Attack / Edge cases / Alternatives / Verdict** before commit.
 **Primary metric:** Signed full-time offer at **≥ ₹4.5 LPA fixed**, Hyderabad / remote-from-India, **by 15 July 2026** (~6 weeks from 22 May 2026).
 
 > This is not a job hunt. It is an escape from below-market exploitation labor.
