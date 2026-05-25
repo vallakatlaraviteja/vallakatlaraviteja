@@ -1,72 +1,109 @@
-# Raviteja Vallakatla
+## Hi there 👋
 
-**Backend & DevOps Engineer · Python · Docker · Document Intelligence**
+<!--
+**vallakatlaraviteja/vallakatlaraviteja** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Hyderabad, India · [LinkedIn](https://linkedin.com/in/raviteja-vallakatla9848/) · ravitejavallakatla@gmail.com
+Here are some ideas to get you started:
 
-Backend engineer with ~1 year of production experience shipping a multi-service OCR / document-intelligence platform. Owner of end-to-end deployments across UAT, PreProd, and Production on Linux + Docker. Comfortable with multi-database migrations across Oracle, MySQL, and MS SQL Server. Looking for an SDE-1 / Backend Engineer role at a product team in Hyderabad, remote-from-India, or a US-shift GIC role.
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
+# Hi 👋, I'm Raviteja Vallakatla
 
----
-
-## Featured projects
-
-### [`hireloop`](./hireloop/) — Personal AI job-acquisition cockpit
-
-A FastAPI + Postgres + Next.js cockpit I'm building to run my own job hunt. Scoped tight to three features (no SaaS, no auto-apply, no scraping — see ADRs).
-
-**Phase 1B shipped — application pipeline core:**
-
-- Linear pipeline state machine: `saved → tailoring → ready_to_apply → applied → recruiter_screen → tech_screen → onsite → offer → accepted`, with `rejected` / `withdrawn` reachable from any active stage
-- Pure-Python state-machine validator with full parametric test coverage of every legal & illegal transition ([`tests/test_state_machine.py`](./hireloop/api/tests/test_state_machine.py))
-- Funnel analytics endpoint (`GET /api/analytics/funnel`) deriving stage counts and conversion rates from an append-only event log
-- Kanban board, add-job and JD-by-URL flows on the Next.js cockpit
-
-**On the roadmap:**
-
-- Phase 2 — AI Resume Tailoring (Anthropic Claude + OpenAI embeddings, RQ worker, PDF export)
-- Phase 3 — Daily Cadence Enforcer (LeetCode log + streak + spaced repetition for revisit problems)
-- Phase 4 — Fly.io deploy
-
-**Stack:** FastAPI 0.115 · SQLAlchemy 2.x async · Postgres 16 + pgvector · Redis 7 + RQ · Next.js 14 (App Router, TypeScript, Tailwind, TanStack Query) · Docker Compose · GitHub Actions CI · Anthropic Claude (Phase 2) · OpenAI embeddings (Phase 2)
-
-**Engineering decisions captured as ADRs:** [stack lock-in](./hireloop/docs/adr/0001-stack.md) · [single-owner mode](./hireloop/docs/adr/0002-single-owner-mode.md) · [no-scraping / no-auto-apply policy](./hireloop/docs/adr/0003-no-scraping-no-autoapply.md)
-
-**Architecture:** [`hireloop/docs/architecture.md`](./hireloop/docs/architecture.md)
-
-### OCR Format Detection & Extraction Engine *(production work at Algonox)*
-
-A document-aware OCR pipeline serving real client traffic across UAT / PreProd / Production environments.
-
-- Designed a **PDF rotation & skew-correction module** with 4 scoring methods (OCR confidence, projection variance, structural-line detection, aspect ratio) combined with weighted per-document-type selection
-- Owned **Docker / docker-compose deployments** for `camundaworkflow`, `business_rules_api`, and `prediction_api` services across multiple environments
-- Executed **schema and data migrations** across Oracle SQL, MySQL, and MS SQL Server with DDL scripts, data inserts, pre-migration backups, and post-deployment sanity checks
-- Managed **ABBYY OCR systemd service** configuration, env vars, and license activation across client deployments
+**Software Engineer | Python & Backend Developer | DevOps & OCR Systems**
 
 ---
 
-## Experience
+## 🎯 About Me
 
-**Software Engineer (Trainee Program)** — Algonox Technologies Pvt. Ltd., Hyderabad · *Jun 2025 – Present*
-Production OCR / document-intelligence platform. Backend Python, multi-DB migrations, Linux deployments, Docker microservices. See OCR project above for detail.
-
----
-
-## Education
-
-**B.Tech, Computer Science** — Jayamukhi Institute of Technological Sciences, Warangal · *2021 – 2025* · CGPA 8.01
+I'm a Software Engineer with hands-on experience building backend systems, deploying production workflows, and engineering intelligent document processing pipelines. I've worked on real-time production environments, managing end-to-end deployments across UAT, PreProd, and Production using Docker and Linux. Passionate about clean code, scalable architectures, and automating complex workflows.
 
 ---
 
-## Skills
+## 🛠 Technical Skills & Tools
 
-- **Backend:** Python, FastAPI, REST APIs, microservices, async SQLAlchemy
-- **Databases:** Oracle SQL, MySQL, MS SQL Server, Postgres + pgvector
-- **DevOps:** Docker, docker-compose, Linux, CI/CD, GitHub Actions, AWS basics
-- **Tools:** Git, Alembic, pytest, structlog
-- **Domain:** OCR / document intelligence (ABBYY, Tesseract)
+![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=Python)
+![C++](https://img.shields.io/badge/-C++-black?style=flat-square&logo=cplusplus)
+![REST APIs](https://img.shields.io/badge/-REST%20APIs-black?style=flat-square)
+![Microservices](https://img.shields.io/badge/-Microservices-black?style=flat-square)
+![Docker](https://img.shields.io/badge/-Docker-black?style=flat-square&logo=docker)
+![Linux](https://img.shields.io/badge/-Linux-black?style=flat-square&logo=linux)
+![Oracle SQL](https://img.shields.io/badge/-Oracle%20SQL-black?style=flat-square&logo=oracle)
+![MySQL](https://img.shields.io/badge/-MySQL-black?style=flat-square&logo=mysql)
+![MS SQL Server](https://img.shields.io/badge/-MS%20SQL%20Server-black?style=flat-square&logo=microsoftsqlserver)
+![AWS](https://img.shields.io/badge/-AWS-black?style=flat-square&logo=amazonaws)
+![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
+![HTML](https://img.shields.io/badge/-HTML-black?style=flat-square&logo=html5)
+![CSS](https://img.shields.io/badge/-CSS-black?style=flat-square&logo=css3)
+![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)
 
 ---
 
-## How I work
+## 📌 Featured Projects
 
-Engineering decisions live as Architecture Decision Records, not folklore. Pull requests describe what changed and *why*, with stop-loss criteria for risky bets. Phased delivery with a public roadmap — every shipped feature has tests, every architectural choice has an ADR.
+### 🔍 OCR Format Detection & Extraction Engine *(Production / Work Project)*
+Built a production-grade OCR document classification and preprocessing system deployed across UAT, PreProd, and Production environments.
+
+- 📐 Designed a document-aware **PDF rotation & skew correction** system as a pre-processing stage, improving extraction accuracy on tilted/rotated scans
+- 📊 Engineered **4 scoring models** — OCR confidence, projection variance, structural line detection, aspect ratio — with weighted combination per document type (text/table/mixed)
+- 🐳 Built and deployed **Docker images for multiple microservices** using `docker-compose`, managing container recreation and environment-specific configurations
+- 🗄️ Executed **database migrations** across Oracle SQL, MySQL, and MS SQL Server — including DDL scripts, data scripts, backup procedures, and post-deployment sanity checks
+- ⚙️ Managed **OCR service configuration**, environment variables, and license activation across client environments
+- 🖥️ Deployed Python application files to live Linux servers with backup, permission management, and container recreation
+
+---
+
+### 🎵 Spotify-Inspired Music Streaming Web Application
+A full-featured music streaming web app with playlist management and real-time authentication.
+
+- 🔐 Implemented secure authentication and authorization using **Firebase**
+- 🎨 Built a responsive front end using **HTML, CSS, and JavaScript** with real-time form validation
+- 📱 Designed with a clean, Spotify-inspired UI
+
+---
+
+## 💼 Experience
+
+**Software Engineer Trainee** — *Algonox Technologies Pvt. Ltd., Hyderabad* *(Jun 2025 – Present)*
+- Developed backend components using Python to support real-time business logic and issue resolution
+- Conducted structured code reviews to improve code clarity, maintainability, and execution efficiency
+- Leveraged Oracle SQL, Oracle SQL Developer, MS SQL Server, and MySQL for query optimization and data integrity checks
+- Supported UAT deployment validation and stability checks to reduce post-release defects
+
+---
+
+## 🎓 Education
+
+**B.Tech in Computer Science** — *Jayamukhi Institute of Technological Sciences, Warangal* *(2021 – 2025)*  
+CGPA: 8.01
+
+---
+
+## 📈 GitHub Stats
+
+![Raviteja's GitHub stats](https://github-readme-stats.vercel.app/api?username=vallakatlaraviteja&show_icons=true&theme=default)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=vallakatlaraviteja&layout=compact)
+
+---
+
+## 🌱 Currently Exploring
+
+- Advanced OCR and document intelligence pipelines
+- Cloud-native deployments and CI/CD automation
+- Backend architecture patterns and distributed systems
+
+---
+
+## 🤝 Let's Connect!
+
+Feel free to reach out to discuss Python, backend systems, DevOps, or production deployment challenges!
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/raviteja-vallakatla9848/)
+[![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github)](https://github.com/vallakatlaraviteja/)
+📧 ravitejavallakatla@gmail.com
